@@ -2,7 +2,7 @@
 
 A collection of AWS service demonstrations and mini-projects organized in a single repository. Each project showcases different AWS services and best practices for cloud development.
 
-## 📋 Repository Structure
+## Repository Structure
 
 This repository follows a multi-project layout where each mini-project is self-contained under the `projects/` directory:
 
@@ -18,7 +18,7 @@ This repository follows a multi-project layout where each mini-project is self-c
 └── README.md            # This file
 ```
 
-## 🚀 Current Projects
+## Current Projects
 
 See [PROJECTS.md](PROJECTS.md) for a complete list of available projects and quick start commands.
 
@@ -28,14 +28,14 @@ See [PROJECTS.md](PROJECTS.md) for a complete list of available projects and qui
 
 ---
 
-## 📦 General Prerequisites
+## General Prerequisites
 
 - Python 3.7 or higher
 - An AWS account with appropriate IAM permissions
 - AWS CLI configured (or credentials via environment variables)
 - Basic knowledge of AWS services
 
-## �️ Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 
@@ -65,7 +65,7 @@ Set-Location -LiteralPath "./projects/[project-name]"
 
 ---
 
-## � AWS Setup (General)
+## AWS Setup (General)
 
 Most projects in this repository require basic AWS configuration. Here's how to set up your AWS environment:
 
@@ -140,16 +140,19 @@ output = json
 ### Step 3: Create IAM User and Access Keys
 
 1. **Navigate to IAM**
+
    - In AWS Console search bar, type "IAM"
    - Click on **"IAM"** (Identity and Access Management)
 
 2. **Create a New User**
+
    - Click **"Users"** in the left sidebar
    - Click **"Create user"**
    - Enter username (e.g., `aws-projects-user`)
    - Click **"Next"**
 
 3. **Set Permissions**
+
    - Select **"Attach policies directly"**
    - Choose policies based on the project you're running
    - Click **"Next"**
@@ -164,25 +167,28 @@ output = json
    - Check the confirmation box
    - Click **"Next"**
    - Click **"Create access key"**
-   - **⚠️ IMPORTANT**: Save both Access Key ID and Secret Access Key
+   - **!!!! IMPORTANT**: Save both Access Key ID and Secret Access Key
    - Click **"Download .csv file"** for safekeeping
    - Click **"Done"**
 
 ---
 
-## 🔒 Security Best Practices
+## Security Best Practices
 
 1. **Never commit credentials to Git**
+
    - The repository includes a `.gitignore` for sensitive files
    - Use environment variables or AWS credentials file
    - Keep `.env` files local only
 
 2. **Use IAM roles with least privilege**
+
    - Only grant necessary permissions for each project
    - Avoid using root account credentials
    - Rotate access keys regularly
 
 3. **Enable MFA on your AWS account**
+
    - Add an extra layer of security
    - Especially important for production accounts
 
@@ -193,7 +199,7 @@ output = json
 
 ---
 
-## 💰 Cost Considerations
+## Cost Considerations
 
 Most projects in this repository are designed to work within AWS Free Tier limits. However, always:
 
@@ -212,7 +218,7 @@ See [AWS Free Tier](https://aws.amazon.com/free/) for details.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! If you'd like to add a new AWS mini-project:
 
@@ -224,7 +230,7 @@ Contributions are welcome! If you'd like to add a new AWS mini-project:
 
 ---
 
-## 📚 Additional Resources
+## Additional Resources
 
 - [AWS Documentation](https://docs.aws.amazon.com/)
 - [AWS SDK for Python (Boto3)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
@@ -233,13 +239,13 @@ Contributions are welcome! If you'd like to add a new AWS mini-project:
 
 ---
 
-## 📄 License
+## License
 
 This repository contains projects with various licenses. See individual project folders for specific license information.
 
 ---
 
-## 📧 Support
+## Support
 
 If you encounter any issues:
 
@@ -249,4 +255,4 @@ If you encounter any issues:
 
 ---
 
-**Happy Cloud Computing! ☁️**
+**Happy Cloud Computing!**
