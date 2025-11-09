@@ -30,7 +30,7 @@ def detect_labels(photo, bucket):
 
     try:
         response = client.detect_labels(Image={'S3Object':{'Bucket':bucket,'Name':photo}},
-            MaxLabels=2)
+            MaxLabels=5)
 
         print('Detected labels for ' + photo) 
         print()   

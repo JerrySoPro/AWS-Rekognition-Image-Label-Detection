@@ -597,4 +597,4 @@ For details, see [https://github.com/awsdocs/amazon-rekognition-developer-guide/
 
 ---
 
-**peace**
+**by peace**
