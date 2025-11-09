@@ -9,6 +9,6 @@ Current projects:
 To run the Rekognition project:
 
 ```powershell
-Set-Location -LiteralPath "D:\Github repo\aws projects\aws rekognition\projects\rekognition_image_label_detection\src"
+Set-Location -LiteralPath "..\projects\rekognition_image_label_detection\src"
 python main.py
 ```
